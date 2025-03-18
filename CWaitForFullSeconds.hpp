@@ -1,7 +1,7 @@
 #include <ctype.h>
 
-#ifndef CWAITFORFULLSECONDS.HPP
-#define CWAITFORFULLSECONDS.HPP
+#ifndef CWAITFORFULLSECONDS_HPP
+#define CWAITFORFULLSECONDS_HPP
 
 class CWaitForFullSeconds
 {

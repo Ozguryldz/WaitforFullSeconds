@@ -10,7 +10,7 @@ CWaitForFullSeconds::CWaitForFullSeconds()
     pid_t pid01;
     int clockID;
     clockID = clock_getcpuclockid(pid01, &id01);
-    std::cout << clockID << std::endl;
+    std::cout <<"ClockID:" << clockID << std::endl;
 }
 
 CWaitForFullSeconds::~CWaitForFullSeconds()
